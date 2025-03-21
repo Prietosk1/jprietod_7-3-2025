@@ -4,6 +4,8 @@
  */
 package main;
 
+import core.Person;
+
 /**
  *
  * @author jprietod
@@ -11,7 +13,9 @@ package main;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello word!");
+        Person persona1 = new Person(1, "Juan",19);
+        
+        System.out.println(persona1);
     }
 
 }
