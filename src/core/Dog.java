@@ -21,6 +21,9 @@ public class Dog {
         this.owner = owner;
     }
     
-    
+    @Override
+    public String toString() {
+        return "Person(name=" + this.name + ")";
+    }
     
 }
