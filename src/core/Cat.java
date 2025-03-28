@@ -27,5 +27,8 @@ public class Cat {
         this.numeroVidas = numeroVidas;
     }
     
-    
+    @Override
+    public String toString() {
+        return "Cat(name=" + this.name + ")";
+    }
 }
